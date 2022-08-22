@@ -1,0 +1,44 @@
+.notification-head{
+    font-weight: 800;
+    font-family: 'Iceland', cursive;
+    font-size: 40px;
+    color: rgb(131, 65, 183);
+}
+#one-notification{
+   
+  border: 1px solid black;
+  box-shadow: 1px 1px grey;
+  font-weight: 500;
+  font-family: 'Iceland';
+  font-size: large;
+
+}
+#notification-btn{
+    background-color: rgb(251, 244, 244);
+    color: rgb(1, 1, 1);
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.space1{
+    margin-top: 5px;
+}
+.notification-edit-btn{
+    width: 60%;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: large;
+    background-color: rgb(143, 96, 179);
+
+}
+.space3{
+   margin-top: 3%;
+}
+.bell{
+    height: 5px;
+    width: 5px;
+}
+.time{
+    margin-left: 20px;
+    font-weight: 100;
+}

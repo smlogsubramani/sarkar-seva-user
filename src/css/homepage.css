@@ -1,0 +1,209 @@
+
+.top-image{
+    height: 80vh;
+    width: 100vh;
+} 
+.content-head{
+    margin-left: 10%;
+ 
+}
+.homepage-head{
+    font-weight: 900;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-shadow: 4px 4px rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    
+    color: white;
+}
+.homepage-image{
+    height: 80vh;
+    width: 205vh;
+}
+.homepage-para{
+    font-weight: 600;
+    font-family: 'ABeeZee', sans-serif; 
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    text-align: left;
+    position: absolute;
+    top: 59%;
+    color: white;
+}
+
+.middle-head{
+    font-size: 30px;
+    font-weight: 900;
+
+    color: rgb(64, 9, 115);
+}
+.middle-page-image{
+    height: 44vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(104, 93, 93);
+    font-size: x-large;  
+
+}
+.read-me-btn{
+    font-family: 'ABeeZee', sans-serif; 
+    font-weight: 400;
+    font-size: large;
+    border-radius: 5px;
+    width: 60%;
+
+
+}
+.middle-para{
+    font-family: 'ABeeZee', sans-serif; 
+    font-size: large;
+    font-weight: 600;
+ 
+}
+.middle-name-1{
+    font-size: 30px;
+    font-weight: 900;    
+    color: rgb(64, 9, 115);
+}
+.middle-page-image-1{
+    height: 44vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(104, 93, 93);
+    font-size: x-large;  
+    margin-left: 10px;
+}
+.middle-content-2{
+    border: 1px solid grey;
+    background-color: rgb(198, 198, 198);
+}
+.middle-content-2-head{
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Iceland',cursive;
+    text-align: center;
+
+}
+.photo-1{
+    
+    width: 50%;
+    margin-left: 30px;
+    border-radius: 100%;
+
+
+}
+.photo-content{
+   margin-left: 50px;
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'ABeeZee', sans-serif;
+  
+}
+.contactus{
+    border: 1px solid rgb(185, 185, 185);
+    background-color: rgb(251, 230, 251);
+    border-radius: 10px;
+    box-shadow: 4px 4px rgb(193, 193, 193);
+}
+.contact-top{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.contact-label {
+    color: black;
+    font-weight: 500;
+    font-size: 19px;
+    font-family: 'ABeeZee', sans-serif; 
+    
+    margin-left: 20px;
+}
+.contact-top{
+    font-size: 30px;
+    font-family: 'ABeeZee', sans-serif; 
+    
+}
+.contact-placeholder{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Iceland',cursive;
+}
+.contact-para{
+    font-family:'Iceland',cursive ;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+}
+.contact-placeholder-desc{
+    width: 100%;
+}
+.contact-button{
+    font-family:'Iceland',cursive ;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    background-color: purple;
+    color: rgb(255, 255, 255);
+    width:100%;
+    border-radius: 10px;
+}
+.gallery-head{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(64, 9, 115);
+}
+
+header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  .grid-image{
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

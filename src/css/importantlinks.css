@@ -1,0 +1,66 @@
+.one-link{
+    border: 1px solid black;
+    box-shadow: 1px 1px grey;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+}
+.one-link-content{
+    text-align: center;
+    font-family: 'Iceland',cursive;
+    font-weight: 500;
+}
+.importantlink-head{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(100, 14, 165);
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px black;
+    
+}
+.two-link{
+    border: 1px solid black;
+    box-shadow: 1px 1px grey;
+    border-radius: 5px;
+    background-color: rgb(62, 229, 40);
+    color: white;
+
+}
+.three-link{
+    border: 1px solid black;
+    box-shadow: 1px 1px grey;
+    border-radius: 5px;
+    background-color: rgb(21, 51, 147);
+    color: white;
+}
+.four-link{
+    border: 1px solid black;
+    box-shadow: 1px 1px grey;
+    border-radius: 5px;
+    background-color: rgb(28, 163, 165);
+    color: white;
+}
+.five-link{
+    border: 1px solid black;
+    box-shadow: 1px 1px grey;
+    border-radius: 5px;
+    background-color: rgb(165, 28, 119);
+    color: white;
+}
+.important-btn{
+    border-radius: 5px;
+    background-color: rgb(65, 14, 112);
+    font-family: "Iceland",cursive;
+    font-weight: 700;
+    font-size: larger;
+    width: 100%;
+    color: white;
+}
+.imp-link{
+    text-decoration: none;
+    color: white;
+}
+.imp-link:hover{
+    text-decoration: none;
+}

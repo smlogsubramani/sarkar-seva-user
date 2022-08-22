@@ -1,0 +1,55 @@
+.owner-form{
+    border: 2px solid rgb(55, 54, 54);
+    border-radius: 15px;
+    box-shadow: 1px 1px grey;
+   background-color: rgb(251, 243, 243);
+}
+.owner-head{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color:  rgb(176, 33, 186);
+    text-shadow: 2px 1px black;
+}
+.owner-form-submit{
+    background-color: rgb(208, 41, 220);
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    width: 100%;
+    margin-left: 20px;
+    color: white;
+    
+}
+#form-icon-1{
+    font-size: 100px;
+    color: blueviolet;
+    transform: rotate(-20deg);
+    margin-left: 10px;
+   
+ 
+
+}
+#form-icon-2{
+    font-size: 100px;
+    color: blueviolet;
+    transform: rotate(20deg);
+    margin-right: 10px;
+
+}
+#form-icon-3{
+    font-size: 100px;
+    color: blueviolet;
+    transform: rotate(-10deg);
+    margin-left: 20px;
+
+}
+.spacehalf{
+    margin-top: 50%;
+}
+
+
+@media screen {
+    
+}

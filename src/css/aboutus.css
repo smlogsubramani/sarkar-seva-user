@@ -1,0 +1,63 @@
+.profile-page-subtitle{
+    font-family: 'Iceland',cursive;
+    color:black;
+    font-weight: 600;
+    font-size: large;
+    font-display: initial;
+}
+.profile-image{
+
+height: 300px;
+width: 300px;
+/* border-radius: 100%; */
+box-shadow: 10px 10px grey;
+}
+.about-us{
+    color: rgb(112, 38, 168);
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile-para{
+    font-family:"Iceland",cursive;
+    color:black;
+    font-weight: 600;
+    font-size: 20px;
+    font-display: initial;
+}
+.label-profile{
+    font-family:"Iceland",cursive;
+    color:black;
+    font-weight: 600;
+    font-size: 20px;
+    font-display: initial;
+    
+}
+.profile-page-subtitle-1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(117, 17, 133);
+    font-weight: 800;
+    font-size: large;
+    
+}
+.recent-photos{
+    height: 200px;
+    width: 200px;
+}
+.profile-head{
+    color: rgb(112, 38, 168);
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.button-profile{
+    width: 20%;
+    background-color: rgb(112, 38, 168);
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+    border-radius: 5px;
+}
+#edit-icon{
+    margin-left: 10px;
+}

@@ -1,0 +1,14 @@
+.nav-item{
+
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+
+}
+.navbar-brand{
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
