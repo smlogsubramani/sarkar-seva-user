@@ -1,9 +1,11 @@
 import React from 'react'
 import '../css/404page.css'
+import Navbar from '../components/Navbar'
 
 const Errorpage = () => {
   return (
     <div>
+      <Navbar/>
         <div className="error-container">
           <h1 className="error-title">
             <span>4</span>

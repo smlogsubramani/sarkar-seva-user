@@ -3,7 +3,7 @@ import '../css/homepage.css'
 
 const Contactus = () => {
   return (
-    <div>
+    <div id='contactus'>
         <div className="row">
             <div className="contactus">
                 

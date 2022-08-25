@@ -4,6 +4,8 @@ import Imagesign from '../assests/images/sign.jpeg'
 
 const Signup = () => {
   return (
+    <div>
+      
     <div className='back-color'>
               <div className="container">
           <div className="space5"></div>
@@ -16,7 +18,7 @@ const Signup = () => {
                 <div className="form">
                   <form>
                     <h3 className='login-head'>SIGNUP</h3>
-              
+                   
                     <p className='tagline'>Welcome to SarkarSeva</p>
           
                     {/* SINGLE FIELD */}
@@ -30,21 +32,20 @@ const Signup = () => {
                     <div className="col-md-3"></div>
                     </div>               
                     {/* SINGLE FIELD */}
-                    
+
 
                     {/* SINGLE FIELD */}
                     <div className="space5"></div>
                     <div className="row"> 
                     <div className="col-md-3"></div>
                     <div className="col-md-3">                  
-                    <label class="label-name">username</label> 
+                    <label class="label-name">USERNAME</label> 
                     </div> 
-                    <div className="col-md-3"><input class="label-box"type="text" placeholder='Logasubramani' maxLength={30}/> </div> 
+                    <div className="col-md-3"><input class="label-box"type="text" placeholder='loga_007' maxLength={30}/> </div> 
                     <div className="col-md-3"></div>
                     </div>               
                     {/* SINGLE FIELD */}
-                    
-                 {/* SINGLE FIELD */}
+                    {/* SINGLE FIELD */}
                     <div className="space5"></div>
                     <div className="row"> 
                     <div className="col-md-3"></div>
@@ -55,60 +56,12 @@ const Signup = () => {
                     <div className="col-md-3"></div>
                     </div>               
                     {/* SINGLE FIELD */}
-                   
-                   {/* SINGLE FIELD */}
-                   <div className="space5"></div>
-                    <div className="row"> 
-                    <div className="col-md-3"></div>
-                    <div className="col-md-3">                  
-                    <label class="label-name">gender</label> 
-                    </div> 
-                    <div className="col-md-3"><input class="label-box"type="text" placeholder='gender' maxLength={30}/> </div> 
-                    <div className="col-md-3"></div>
-                    </div>               
-                    {/* SINGLE FIELD */}
-                     
-                     {/* SINGLE FIELD */}
-                   <div className="space5"></div>
-                    <div className="row"> 
-                    <div className="col-md-3"></div>
-                    <div className="col-md-3">                  
-                    <label class="label-name">email id</label> 
-                    </div> 
-                    <div className="col-md-3"><input class="label-box"type="text" placeholder='loga07@gmail.com' maxLength={30}/> </div> 
-                    <div className="col-md-3"></div>
-                    </div>               
-                    {/* SINGLE FIELD */}
-                   
-                   {/* SINGLE FIELD */}
-                   <div className="space5"></div>
-                    <div className="row"> 
-                    <div className="col-md-3"></div>
-                    <div className="col-md-3">                  
-                    <label class="label-name">aadhar number</label> 
-                    </div> 
-                    <div className="col-md-3"><input class="label-box"type="number" placeholder='1234-5678-1234' maxLength={30}/> </div> 
-                    <div className="col-md-3"></div>
-                    </div>               
-                    {/* SINGLE FIELD */} 
-                     {/* SINGLE FIELD */}
-                    <div className="space5"></div>
-                    <div className="row"> 
-                    <div className="col-md-3"></div>
-                    <div className="col-md-3">                  
-                    <label class="label-name">contact</label> 
-                    </div> 
-                    <div className="col-md-3"><input class="label-box"type="number" placeholder='1234567891' maxLength={30}/> </div> 
-                    <div className="col-md-3"></div>
-                    </div>               
-                    {/* SINGLE FIELD */}
-                    
                     {/* SINGLE FIELD */}
                     <div className="space5"></div>
                     <div className="row"> 
                     <div className="col-md-3"></div>
                     <div className="col-md-3">                  
-                    <label class="label-name">state</label> 
+                    <label class="label-name">State</label> 
                     </div> 
                     <div className="col-md-3"><input class="label-box"type="text" placeholder='tamilnadu' maxLength={30}/> </div> 
                     <div className="col-md-3"></div>
@@ -125,35 +78,13 @@ const Signup = () => {
                     <div className="col-md-3"></div>
                     </div>               
                     {/* SINGLE FIELD */}
+
                     {/* SINGLE FIELD */}
-                      <div className="space5"></div>
+                    <div className="space5"></div>
                     <div className="row"> 
                     <div className="col-md-3"></div>
                     <div className="col-md-3">                  
-                    <label class="label-name">location</label> 
-                    </div> 
-                    <div className="col-md-3"><input class="label-box"type="text" placeholder='chennai' maxLength={30}/> </div> 
-                    <div className="col-md-3"></div>
-                    </div>               
-                    {/* SINGLE FIELD */}
-                    
-                     {/* SINGLE FIELD */}
-                     <div className="space5"></div>
-                    <div className="row"> 
-                    <div className="col-md-3"></div>
-                    <div className="col-md-3">                  
-                    <label class="label-name">new password</label> 
-                    </div> 
-                    <div className="col-md-3"><input class="label-box"type="text" placeholder='link@357' maxLength={30}/> </div> 
-                    <div className="col-md-3"></div>
-                    </div>               
-                    {/* SINGLE FIELD */}
-                     {/* SINGLE FIELD */}
-                     <div className="space5"></div>
-                    <div className="row"> 
-                    <div className="col-md-3"></div>
-                    <div className="col-md-3">                  
-                    <label class="label-name">confirm password</label> 
+                    <label class="label-name">PASSWORD</label> 
                     </div> 
                     <div className="col-md-3"><input class="label-box"type="text" placeholder='link@357' maxLength={30}/> </div> 
                     <div className="col-md-3"></div>
@@ -183,6 +114,7 @@ const Signup = () => {
             </div>
           </div>
         </div>
+    </div>
     </div>
   )
 }

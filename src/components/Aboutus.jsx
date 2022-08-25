@@ -1,9 +1,9 @@
 import React from 'react'
 import '../css/homepage.css'
-import Image5 from '../assests/images/about.png'
+import Image5 from '../assests/images/about.jpg'
 const Aboutus = () => {
   return (
-    <div>
+    <div id="aboutus">
        <div className="row">
             <h2 className='middle-name-1'>
                 ABOUT US
@@ -16,10 +16,8 @@ const Aboutus = () => {
                     
                     <p className='middle-para'> 
                     <div className="space10"></div>
-                    Read a bit more about some important global environment settings that Bootstrap utilizes.
-                    Read about what’s included in Bootstrap in our contents section and the list of components 
-                    that require JavaScript below.
-                    Read a bit more about some important global environment settings that Bootstrap utilizes.
+                    
+                    Sarkar Seva is a platform where every individual under the MGNREGA act is been properly guided to fulfill their needs by providing them quality work and their desired work prospective which could help in rural development and empowerment.
                     
                     </p>
 

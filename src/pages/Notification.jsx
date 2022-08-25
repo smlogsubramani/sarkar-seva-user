@@ -1,8 +1,10 @@
 import React from 'react'
 import '../css/notification.css'
-
+import Navbar from '../components/Navbar'
 const Notification = () => {
   return (
+  <div>
+    <Navbar/>
     <div className="container">
         <div className="space5"></div>
         <h2 className="notification-head">
@@ -102,6 +104,7 @@ const Notification = () => {
     </div>
     <div className="space3"></div>
     
+    </div>
     </div>
   )
 }

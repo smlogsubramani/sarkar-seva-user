@@ -1,3 +1,14 @@
+.roll-on{
+    height: 77vh;
+    overflow-x: auto;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.space-recruiter{
+    margin-top: 13em;
+}
+
 .owner-form{
     border: 2px solid rgb(55, 54, 54);
     border-radius: 15px;
@@ -20,10 +31,11 @@
     width: 100%;
     margin-left: 20px;
     color: white;
+    margin-bottom: 20px;
     
 }
 #form-icon-1{
-    font-size: 100px;
+    font-size: 120px;
     color: blueviolet;
     transform: rotate(-20deg);
     margin-left: 10px;
@@ -32,14 +44,14 @@
 
 }
 #form-icon-2{
-    font-size: 100px;
+    font-size: 120px;
     color: blueviolet;
     transform: rotate(20deg);
     margin-right: 10px;
 
 }
 #form-icon-3{
-    font-size: 100px;
+    font-size: 120px;
     color: blueviolet;
     transform: rotate(-10deg);
     margin-left: 20px;
@@ -50,6 +62,10 @@
 }
 
 
-@media screen {
-    
+@media only screen and (max-width:800px) {
+   #form-icon-1, #form-icon-2, #form-icon-3{
+    display: none;
+
+   } 
+
 }

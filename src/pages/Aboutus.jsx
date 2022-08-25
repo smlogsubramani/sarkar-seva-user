@@ -1,18 +1,61 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import axios from "axios";
 import '../css/aboutus.css'
+import Navbar from '../components/Navbar';
 import Image1 from '../assests/images/vao.jpeg'
 
-const aboutus = () => {
+const INITIAL = {
+    "_id": "",
+    "name": "loga Req",
+    "email": "aravind@gmail.com",
+    "phone_number": "1478523692",
+    "aadhar": "1234 4321 1234",
+    "password": "$2b$10$SFJLb5Kg0uY4UpO.efroQ.GaoizUIokVxotmYMJOzqGvbEs4MJBIi",
+    "age": 20,
+    "gender": "M",
+    "address": "ABC street, Chennai",
+    "district": "Cuddalore",
+    "pincode": "600098",
+    "state": "TN",
+    "__v": 0
+};
+
+const AboutUs = () => {
+    const [data, setData] = useState(INITIAL);
+
+    const body = {
+        "user_id": "63045e9b6e71f7633fa57823"
+    };
+
+    const initProfile = async () => {
+        const url = `http://localhost:8000/user/user-profile`;
+        console.log(body)
+        const response = await axios.post(url, body);
+        // if(response.status === 200) {
+            response.data ? setData(response.data) : setData(INITIAL);
+            console.log("Response ", response.data);
+        // }
+    }
+
+    useEffect(() => {
+        initProfile();
+        console.log("Hello");
+    }, []);
+
   return (
+    
     <div>
- 
+ <Navbar/>
     <div className="space3"></div>
         <div className="container">
-        <h2 className='profile-head'> PROFILE PAGE</h2>
-          <hr />
+        <h2 className='profile-head'><i class="fa-solid fa-user"></i> PROFILE PAGE </h2>
+        <div className="row">
+            <hr />
+        </div>
+        <div className="space5"></div>
+          
             <div className="row">
                 <div className="col-md-6">
-                    
                     <div className="row">
                       
                         <div className="col">  <div className="profile-image">
@@ -61,18 +104,17 @@ const aboutus = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="row">
-                                <label className='label-profile'>Name : Priya.J</label>
+                                <label className='label-profile'>Name : { data.name }</label>
                                 <div className="space5"></div>
-                                <label className='label-profile'>Age : 27</label>
+                                <label className='label-profile'>Age : { data.age }</label>
                                 <div className="space5"></div>
-                                <label className='label-profile'>Residence : India</label>
+                                <label className='label-profile'>Residence : { data.district }</label>
                                 <div className="space5"></div>
-                                <label className='label-profile'>Address : 3/788,vivekanandha st,madhanadhapuram,porur</label>
+                                <label className='label-profile'>Address : { data.address }</label>
                                 <div className="space5"></div>
                                 <label className='label-profile'>Dob : 01.05.2002 </label>
                                 <div className="space5"></div>
-                                <label className='label-profile'>Email : priya@gmail.com</label>
-                                
+                                <label className='label-profile'>Email : { data.email }</label>
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -107,4 +149,4 @@ const aboutus = () => {
   )
 }
 
-export default aboutus
+export default AboutUs;

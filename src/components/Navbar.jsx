@@ -16,24 +16,32 @@ const Navbar = () => {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/homepage">Home</a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href='#'>AboutUs</a>
+          <a class="nav-link active" href='#aboutus'>AboutUs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Contact Us</a>
+          <a class="nav-link active" href="#contactus">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Gallery</a>
+          <a class="nav-link active" href="#gallery">Gallery</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="/importantlink">Stats</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/recruiterform">Need worker</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/Notification">Notification</a>
+        </li>
         <li class="nav-item active">
           <a class="nav-link" href="/signup">Signup</a>
         </li>
-        
+        <li class="nav-item">
+          <a class="nav-link active" href="/profilepage"><i class="fa-solid fa-user"></i></a>
+        </li>
   
       </ul>
     </div>

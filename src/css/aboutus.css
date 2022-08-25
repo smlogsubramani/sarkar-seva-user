@@ -5,38 +5,41 @@
     font-size: large;
     font-display: initial;
 }
-.profile-image{
+.profile-image{ 
 
 height: 300px;
 width: 300px;
 /* border-radius: 100%; */
 box-shadow: 10px 10px grey;
 }
+
 .about-us{
     color: rgb(112, 38, 168);
     font-weight: 800;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .profile-para{
-    font-family:"Iceland",cursive;
-    color:black;
-    font-weight: 600;
-    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(53, 51, 51);
+    font-weight: 550;
+    font-size: 16px;
     font-display: initial;
+    padding: 1px 1px 1px 1px;
 }
 .label-profile{
-    font-family:"Iceland",cursive;
-    color:black;
-    font-weight: 600;
-    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(53, 51, 51);
+    font-weight: 550;
+    font-size: 16px;
+    padding-top: 10px;
     font-display: initial;
     
 }
 .profile-page-subtitle-1{
     font-family: Arial, Helvetica, sans-serif;
-    color:rgb(117, 17, 133);
+    color:rgb(80, 39, 146);
     font-weight: 800;
-    font-size: large;
+    font-size: 20px;
     
 }
 .recent-photos{

@@ -26,7 +26,7 @@ import Image31 from '../assests/images/gal-25.jpg'
 
 const Gallery = () => {
   return (
-    <div>
+    <div id='gallery'>
       <div className="space5"></div>
         <div className="container">
             <div className="row">

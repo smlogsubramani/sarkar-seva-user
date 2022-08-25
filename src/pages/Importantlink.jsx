@@ -1,9 +1,10 @@
 import React from 'react'
 import '../css/importantlinks.css'
-
+import Navbar from '../components/Navbar'
 const Importantlink = () => {
   return (
     <div >
+        <Navbar/>
         <div className="container">
             <div className="space5"></div>
             <div className="row">
